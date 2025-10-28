@@ -1,0 +1,16 @@
+User story name: 
+REQ-10 | Participant removal by Administrator
+As an Administrator, I want to remove participant from the room until the randomization starts so that I can manage and keep participants list accurate and up to date.
+Acceptance criteria:
+• The Administrator can remove any participant from the room until the randomization starts.
+• Removed participant lose access to the room and their data is deleted.
+• The system updates the number of participants in the room accordingly.
+AC: Participant removal
+Given the Admin is in the room,
+When the Admin performs the ‘Remove participant’ action,
+Then the system:
+• Identifies the chosen participant,
+• Removes participant from the room,
+• Revokes the access to the room of the chosen participant,
+• Updates the participants list and count,
+• Deletes data of the chosen participant. 
